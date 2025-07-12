@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-12T10:46:57.032724","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-12T10:46:57.033441","level":"info","event":"Filling up the DagBag from /home/ec2-user/airflow/dags/sat_telemetry_pipe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-12T10:46:57.045059","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-12T10:46:57.121322Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121471Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121554Z","level":"info","event":"Current task name:generate_moon_telemetry","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121635Z","level":"info","event":"Dag name:moon_satellite_telemetry_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121704Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121771Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T10:46:57.121836Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_moon_telemetry>","chan":"stdout","logger":"task"}
